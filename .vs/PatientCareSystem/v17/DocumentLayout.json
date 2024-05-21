@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\uD64D\uC9C0\uBBFC\\Documents\\\uC9D0\uB2C8\\Study\\PatientCareSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C55CAC6A-70A7-4C27-AD51-5CF5568077A7}|PatientCareSystem\\PatientCareSystem.csproj|c:\\users\\\uD64D\uC9C0\uBBFC\\documents\\\uC9D0\uB2C8\\study\\patientcaresystem\\patientcaresystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C55CAC6A-70A7-4C27-AD51-5CF5568077A7}|PatientCareSystem\\PatientCareSystem.csproj|solutionrelative:patientcaresystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Users\\\uD64D\uC9C0\uBBFC\\Documents\\\uC9D0\uB2C8\\Study\\PatientCareSystem\\PatientCareSystem\\Form1.cs",
+              "RelativeDocumentMoniker": "PatientCareSystem\\Form1.cs",
+              "ToolTip": "C:\\Users\\\uD64D\uC9C0\uBBFC\\Documents\\\uC9D0\uB2C8\\Study\\PatientCareSystem\\PatientCareSystem\\Form1.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "PatientCareSystem\\Form1.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T14:55:06.68Z",
+              "EditorCaption": " [\uB514\uC790\uC778]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
