@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
+using System.Windows.Forms.VisualStyles;
+using System.Drawing.Drawing2D;
 
 namespace PatientCareSystem
 {
@@ -32,10 +34,21 @@ namespace PatientCareSystem
             pnlNav.Top = btnDashboard.Top;
             pnlNav.Left = btnDashboard.Left;
             btnDashboard.BackColor = Color.FromArgb(244, 244, 239);
+            txtSearch.Padding = new Padding(10, 0, 0, 0);
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
+        }
+
+        private void pnlTitle_Paint(object sender, PaintEventArgs e)
+        {
+            Color firstColor = System.Drawing.ColorTranslator.FromHtml("#00A8F1");
+            //Color firstColor = System.Drawing.ColorTranslator.FromHtml("#181E36");
+            Color SecontColor = System.Drawing.ColorTranslator.FromHtml("#00E1A5");
+            //Color SecontColor = System.Drawing.ColorTranslator.FromHtml("#00A8F1");
+            LinearGradientBrush br = new LinearGradientBrush(this.ClientRectangle, firstColor, SecontColor, 45, false);
+            e.Graphics.FillRectangle(br, this.ClientRectangle);
         }
 
         private void btnDashboard_Click(object sender, EventArgs e)
@@ -51,6 +64,13 @@ namespace PatientCareSystem
             pnlNav.Height = btnPatientList.Height;
             pnlNav.Top = btnPatientList.Top;
             btnPatientList.BackColor = Color.FromArgb(244, 244, 239);
+
+            lblTitle.Text = "Patient List";
+            this.pnlFormContainer.Controls.Clear();
+            formPatientList FormPatientList_ct = new formPatientList() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
+            FormPatientList_ct.FormBorderStyle = FormBorderStyle.None;
+            this.pnlFormContainer.Controls.Add(FormPatientList_ct);
+            FormPatientList_ct.Show();
         }
 
         private void btnAppointment_Click(object sender, EventArgs e)
