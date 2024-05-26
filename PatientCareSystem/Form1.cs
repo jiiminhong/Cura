@@ -33,8 +33,15 @@ namespace PatientCareSystem
             pnlNav.Height = btnDashboard.Height;
             pnlNav.Top = btnDashboard.Top;
             pnlNav.Left = btnDashboard.Left;
-            btnDashboard.BackColor = Color.FromArgb(244, 244, 239);
+            //btnDashboard.BackColor = Color.FromArgb(244, 244, 239);
             txtSearch.Padding = new Padding(10, 0, 0, 0);
+
+            lblTitle.Text = "Dashboard";
+            this.pnlFormContainer.Controls.Clear();
+            formDashboard FormDashboard_ct = new formDashboard() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
+            FormDashboard_ct.FormBorderStyle = FormBorderStyle.None;
+            this.pnlFormContainer.Controls.Add(FormDashboard_ct);
+            FormDashboard_ct.Show();
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -44,9 +51,7 @@ namespace PatientCareSystem
         private void pnlTitle_Paint(object sender, PaintEventArgs e)
         {
             Color firstColor = System.Drawing.ColorTranslator.FromHtml("#00A8F1");
-            //Color firstColor = System.Drawing.ColorTranslator.FromHtml("#181E36");
             Color SecontColor = System.Drawing.ColorTranslator.FromHtml("#00E1A5");
-            //Color SecontColor = System.Drawing.ColorTranslator.FromHtml("#00A8F1");
             LinearGradientBrush br = new LinearGradientBrush(this.ClientRectangle, firstColor, SecontColor, 45, false);
             e.Graphics.FillRectangle(br, this.ClientRectangle);
         }
@@ -57,6 +62,13 @@ namespace PatientCareSystem
             pnlNav.Top = btnDashboard.Top;
             pnlNav.Left = btnDashboard.Left;
             btnDashboard.BackColor = Color.FromArgb(244, 244, 239);
+
+            lblTitle.Text = "Dashboard";
+            this.pnlFormContainer.Controls.Clear();
+            formDashboard FormDashboard_ct = new formDashboard() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
+            FormDashboard_ct.FormBorderStyle = FormBorderStyle.None;
+            this.pnlFormContainer.Controls.Add(FormDashboard_ct);
+            FormDashboard_ct.Show();
         }
 
         private void btnPatientList_Click(object sender, EventArgs e)
@@ -78,6 +90,13 @@ namespace PatientCareSystem
             pnlNav.Height = btnAppointment.Height;
             pnlNav.Top = btnAppointment.Top;
             btnAppointment.BackColor = Color.FromArgb(244, 244, 239);
+
+            lblTitle.Text = "Appointment";
+            this.pnlFormContainer.Controls.Clear();
+            formAppointment FormAppointment_ct = new formAppointment() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
+            FormAppointment_ct.FormBorderStyle = FormBorderStyle.None;
+            this.pnlFormContainer.Controls.Add(FormAppointment_ct);
+            FormAppointment_ct.Show();
         }
 
         private void btnSettings_Click(object sender, EventArgs e)
@@ -85,6 +104,13 @@ namespace PatientCareSystem
             pnlNav.Height = btnSettings.Height;
             pnlNav.Top = btnSettings.Top;
             btnSettings.BackColor = Color.FromArgb(244, 244, 239);
+
+            lblTitle.Text = "Settings";
+            this.pnlFormContainer.Controls.Clear();
+            formSettings FormSettings_ct = new formSettings() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
+            FormSettings_ct.FormBorderStyle = FormBorderStyle.None;
+            this.pnlFormContainer.Controls.Add(FormSettings_ct);
+            FormSettings_ct.Show();
         }
 
         private void btnDashboard_Leave(object sender, EventArgs e)
@@ -105,6 +131,11 @@ namespace PatientCareSystem
         private void btnSettings_Leave(object sender, EventArgs e)
         {
             btnSettings.BackColor = Color.FromArgb(24, 30, 54);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
