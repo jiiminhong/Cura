@@ -15,6 +15,9 @@ namespace PatientCareSystem
 {
     public partial class Form1 : Form
     {
+        private bool mouseOn;
+        private Point startPoint = new Point(0, 0);
+
         [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
         private static extern IntPtr CreateRoundRectRgn(
             int nLeftRect,
@@ -33,7 +36,7 @@ namespace PatientCareSystem
             pnlNav.Height = btnDashboard.Height;
             pnlNav.Top = btnDashboard.Top;
             pnlNav.Left = btnDashboard.Left;
-            //btnDashboard.BackColor = Color.FromArgb(244, 244, 239);
+            btnDashboard.BackColor = Color.FromArgb(244, 244, 239);
             txtSearch.Padding = new Padding(10, 0, 0, 0);
 
             lblTitle.Text = "Dashboard";
@@ -131,6 +134,26 @@ namespace PatientCareSystem
         private void btnSettings_Leave(object sender, EventArgs e)
         {
             btnSettings.BackColor = Color.FromArgb(24, 30, 54);
+        }
+
+        private void pnlTitle_MouseDown(object sender, MouseEventArgs e)
+        {
+            mouseOn = true;
+            startPoint = new Point(e.X, e.Y);
+        }
+
+        private void pnlTitle_MouseUp(object sender, MouseEventArgs e)
+        {
+            mouseOn = false;
+        }
+
+        private void pnlTitle_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (mouseOn)
+            {
+                Point p = PointToScreen(e.Location);
+                Location = new Point(p.X - this.startPoint.X, p.Y - this.startPoint.Y);
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)

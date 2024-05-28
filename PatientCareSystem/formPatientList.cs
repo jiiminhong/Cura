@@ -54,9 +54,25 @@ namespace PatientCareSystem
         private void dataGridView1_RowHeaderMouseDoubleClick(object sender, DataGridViewCellMouseEventArgs e)
         {
             this.pnlPatient.Controls.Clear();
-            formPatientDetails FormPatientDetails_ct = new formPatientDetails() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
+            formPatientDetails FormPatientDetails_ct = new formPatientDetails(this) { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
             FormPatientDetails_ct.FormBorderStyle = FormBorderStyle.None;
             this.pnlPatient.Controls.Add(FormPatientDetails_ct);
+
+            DataGridViewRow row = dataGridView1.SelectedRows[0];
+            string data1 = row.Cells[1].Value.ToString();
+            string data2 = "( " + row.Cells[3].Value.ToString() + " / " + row.Cells[2].Value.ToString() + " )";
+            FormPatientDetails_ct.lblpName.Text = data1;
+            FormPatientDetails_ct.lblpInfo.Text = data2;
+
+
+            //if (FormPatientDetails_ct.fileLbox.SelectedItem.ToString().Contains(data1))
+            //{
+            //    FormPatientDetails_ct.fileLbox.Items.Clear();
+            //    FormPatientDetails_ct.fileLbox.Items.Add("20240404_박지훈_born");
+            //    FormPatientDetails_ct.fileLbox.Items.Add("20240412_박지훈_born2");
+            //    FormPatientDetails_ct.fileLbox.SelectedIndex = 0;
+            //}
+
             FormPatientDetails_ct.Show();
         }
     }
