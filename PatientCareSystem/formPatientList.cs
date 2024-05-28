@@ -13,11 +13,18 @@ namespace PatientCareSystem
 {
     public partial class formPatientList : Form
     {
-        string _server = ""; //DB 서버 주소, 로컬일 경우 localhost
-        int _port = 0; //DB 서버 포트
-        string _database = ""; //DB 이름
-        string _id = ""; //계정 아이디
-        string _pw = ""; //계정 비밀번호
+        //string _server = ""; //DB 서버 주소, 로컬일 경우 localhost
+        //int _port = 0; //DB 서버 포트
+        //string _database = ""; //DB 이름
+        //string _id = ""; //계정 아이디
+        //string _pw = ""; //계정 비밀번호
+        //string _connectionAddress = "";
+
+        string _server = "localhost"; //DB 서버 주소, 로컬일 경우 localhost
+        int _port = 3306; //DB 서버 포트
+        string _database = "patient_info"; //DB 이름
+        string _id = "root"; //계정 아이디
+        string _pw = "123456"; //계정 비밀번호
         string _connectionAddress = "";
 
         public formPatientList()
@@ -30,8 +37,7 @@ namespace PatientCareSystem
             {
                 using (MySqlConnection mysql = new MySqlConnection(_connectionAddress))
                 {
-                    //mysql.Open();
-                    //accounts_table의 전체 데이터를 조회합니다.            
+                    //accounts_table의 전체 데이터를 조회           
                     string selectQuery = string.Format("SELECT * FROM patient");
                     mysql.Open();
 
@@ -63,15 +69,6 @@ namespace PatientCareSystem
             string data2 = "( " + row.Cells[3].Value.ToString() + " / " + row.Cells[2].Value.ToString() + " )";
             FormPatientDetails_ct.lblpName.Text = data1;
             FormPatientDetails_ct.lblpInfo.Text = data2;
-
-
-            //if (FormPatientDetails_ct.fileLbox.SelectedItem.ToString().Contains(data1))
-            //{
-            //    FormPatientDetails_ct.fileLbox.Items.Clear();
-            //    FormPatientDetails_ct.fileLbox.Items.Add("20240404_박지훈_born");
-            //    FormPatientDetails_ct.fileLbox.Items.Add("20240412_박지훈_born2");
-            //    FormPatientDetails_ct.fileLbox.SelectedIndex = 0;
-            //}
 
             FormPatientDetails_ct.Show();
         }
