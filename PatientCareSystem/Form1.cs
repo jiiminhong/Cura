@@ -36,7 +36,7 @@ namespace PatientCareSystem
             pnlNav.Height = btnDashboard.Height;
             pnlNav.Top = btnDashboard.Top;
             pnlNav.Left = btnDashboard.Left;
-            btnDashboard.BackColor = Color.FromArgb(244, 244, 239);
+            //btnDashboard.BackColor = Color.FromArgb(244, 244, 239);
             txtSearch.Padding = new Padding(10, 0, 0, 0);
 
             lblTitle.Text = "Dashboard";

@@ -33,19 +33,19 @@
             this.lblpName = new System.Windows.Forms.Label();
             this.lblpInfo = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.fileLbox = new System.Windows.Forms.ListBox();
             this.mNo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.mPrescription = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.mName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.mStart = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.mEnd = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.mRoute = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.mCapacity = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.mUnit = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.mAccumulated = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.fileLbox = new System.Windows.Forms.ListBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -71,6 +71,7 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(239)))));
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
@@ -85,7 +86,7 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.mNo,
-            this.mPrescription,
+            this.mName,
             this.mStart,
             this.mEnd,
             this.mRoute,
@@ -107,56 +108,8 @@
             this.dataGridView1.RowTemplate.Height = 23;
             this.dataGridView1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(705, 133);
+            this.dataGridView1.Size = new System.Drawing.Size(723, 133);
             this.dataGridView1.TabIndex = 2;
-            // 
-            // mNo
-            // 
-            this.mNo.HeaderText = "No.";
-            this.mNo.Name = "mNo";
-            this.mNo.Width = 50;
-            // 
-            // mPrescription
-            // 
-            this.mPrescription.HeaderText = "처방명";
-            this.mPrescription.Name = "mPrescription";
-            this.mPrescription.Width = 120;
-            // 
-            // mStart
-            // 
-            this.mStart.HeaderText = "투여시작일";
-            this.mStart.Name = "mStart";
-            this.mStart.Width = 80;
-            // 
-            // mEnd
-            // 
-            this.mEnd.HeaderText = "투여종료일";
-            this.mEnd.Name = "mEnd";
-            this.mEnd.Width = 80;
-            // 
-            // mRoute
-            // 
-            this.mRoute.HeaderText = "투여경로";
-            this.mRoute.Name = "mRoute";
-            this.mRoute.Width = 80;
-            // 
-            // mCapacity
-            // 
-            this.mCapacity.HeaderText = "1일용량";
-            this.mCapacity.Name = "mCapacity";
-            this.mCapacity.Width = 80;
-            // 
-            // mUnit
-            // 
-            this.mUnit.HeaderText = "단위";
-            this.mUnit.Name = "mUnit";
-            this.mUnit.Width = 80;
-            // 
-            // mAccumulated
-            // 
-            this.mAccumulated.HeaderText = "누적용량";
-            this.mAccumulated.Name = "mAccumulated";
-            this.mAccumulated.Width = 80;
             // 
             // label1
             // 
@@ -205,6 +158,54 @@
             this.fileLbox.TabIndex = 8;
             this.fileLbox.DoubleClick += new System.EventHandler(this.fileLbox_DoubleClick);
             // 
+            // mNo
+            // 
+            this.mNo.HeaderText = "No.";
+            this.mNo.Name = "mNo";
+            this.mNo.Width = 50;
+            // 
+            // mName
+            // 
+            this.mName.HeaderText = "처방명";
+            this.mName.Name = "mName";
+            this.mName.Width = 120;
+            // 
+            // mStart
+            // 
+            this.mStart.HeaderText = "투여시작일";
+            this.mStart.Name = "mStart";
+            this.mStart.Width = 90;
+            // 
+            // mEnd
+            // 
+            this.mEnd.HeaderText = "투여종료일";
+            this.mEnd.Name = "mEnd";
+            this.mEnd.Width = 90;
+            // 
+            // mRoute
+            // 
+            this.mRoute.HeaderText = "투여경로";
+            this.mRoute.Name = "mRoute";
+            this.mRoute.Width = 80;
+            // 
+            // mCapacity
+            // 
+            this.mCapacity.HeaderText = "1일용량";
+            this.mCapacity.Name = "mCapacity";
+            this.mCapacity.Width = 80;
+            // 
+            // mUnit
+            // 
+            this.mUnit.HeaderText = "단위";
+            this.mUnit.Name = "mUnit";
+            this.mUnit.Width = 80;
+            // 
+            // mAccumulated
+            // 
+            this.mAccumulated.HeaderText = "누적용량";
+            this.mAccumulated.Name = "mAccumulated";
+            this.mAccumulated.Width = 80;
+            // 
             // formPatientDetails
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -233,19 +234,19 @@
 
         internal System.Windows.Forms.Label lblpName;
         internal System.Windows.Forms.Label lblpInfo;
-        private System.Windows.Forms.DataGridView dataGridView1;
         internal System.Windows.Forms.Label label1;
         internal System.Windows.Forms.Label label2;
+        internal System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox textBox1;
+        internal System.Windows.Forms.ListBox fileLbox;
+        internal System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn mNo;
-        private System.Windows.Forms.DataGridViewTextBoxColumn mPrescription;
+        private System.Windows.Forms.DataGridViewTextBoxColumn mName;
         private System.Windows.Forms.DataGridViewTextBoxColumn mStart;
         private System.Windows.Forms.DataGridViewTextBoxColumn mEnd;
         private System.Windows.Forms.DataGridViewTextBoxColumn mRoute;
         private System.Windows.Forms.DataGridViewTextBoxColumn mCapacity;
         private System.Windows.Forms.DataGridViewTextBoxColumn mUnit;
         private System.Windows.Forms.DataGridViewTextBoxColumn mAccumulated;
-        internal System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox1;
-        internal System.Windows.Forms.ListBox fileLbox;
     }
 }

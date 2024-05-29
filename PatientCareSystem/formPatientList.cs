@@ -13,18 +13,11 @@ namespace PatientCareSystem
 {
     public partial class formPatientList : Form
     {
-        //string _server = ""; //DB 서버 주소, 로컬일 경우 localhost
-        //int _port = 0; //DB 서버 포트
-        //string _database = ""; //DB 이름
-        //string _id = ""; //계정 아이디
-        //string _pw = ""; //계정 비밀번호
-        //string _connectionAddress = "";
-
-        string _server = "localhost"; //DB 서버 주소, 로컬일 경우 localhost
-        int _port = 3306; //DB 서버 포트
-        string _database = "patient_info"; //DB 이름
-        string _id = "root"; //계정 아이디
-        string _pw = "123456"; //계정 비밀번호
+        string _server = ""; //DB 서버 주소, 로컬일 경우 localhost
+        int _port = 0; //DB 서버 포트
+        string _database = ""; //DB 이름
+        string _id = ""; //계정 아이디
+        string _pw = ""; //계정 비밀번호
         string _connectionAddress = "";
 
         public formPatientList()
@@ -39,6 +32,7 @@ namespace PatientCareSystem
                 {
                     //accounts_table의 전체 데이터를 조회           
                     string selectQuery = string.Format("SELECT * FROM patient");
+                    //string selectQuery = string.Format("SELECT * FROM patient p JOIN medication m ON p.pNo = m.pNo");
                     mysql.Open();
 
                     MySqlCommand command = new MySqlCommand(selectQuery, mysql);
@@ -69,6 +63,30 @@ namespace PatientCareSystem
             string data2 = "( " + row.Cells[3].Value.ToString() + " / " + row.Cells[2].Value.ToString() + " )";
             FormPatientDetails_ct.lblpName.Text = data1;
             FormPatientDetails_ct.lblpInfo.Text = data2;
+
+            try {
+                using (MySqlConnection mysql = new MySqlConnection(_connectionAddress))
+                {
+                    string selectQuery = string.Format("SELECT * FROM medication");
+                    mysql.Open();
+
+                    MySqlCommand command = new MySqlCommand(selectQuery, mysql);
+                    MySqlDataReader table = command.ExecuteReader();
+
+                    while (table.Read())
+                    {
+                        if (row.Cells[0].Value.ToString() == table["pNo"].ToString())
+                        {
+                            FormPatientDetails_ct.dataGridView1.Rows.Add(table["mNo"], table["mName"], table["mStart"], table["mEnd"], table["mRoute"], table["mCapacity"], table["mUnit"], table["mAccumulated"]);
+                        }
+                    }
+                    mysql.Close();
+                }
+            }
+            catch (Exception exc)
+            {
+                MessageBox.Show(exc.Message);
+            }
 
             FormPatientDetails_ct.Show();
         }
