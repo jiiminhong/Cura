@@ -13,13 +13,13 @@ namespace PatientCareSystem
 {
     public partial class formPatientList : Form
     {
-        string _server = ""; //DB 서버 주소, 로컬일 경우 localhost
-        int _port = 0; //DB 서버 포트
-        string _database = ""; //DB 이름
-        string _id = ""; //계정 아이디
-        string _pw = ""; //계정 비밀번호
+        string _server = "localhost"; //DB 서버 주소, 로컬일 경우 localhost
+        int _port = 3306; //DB 서버 포트
+        string _database = "patient_info"; //DB 이름
+        string _id = "root"; //계정 아이디
+        string _pw = "123456"; //계정 비밀번호
         string _connectionAddress = "";
-
+         
         public formPatientList()
         {
             InitializeComponent();

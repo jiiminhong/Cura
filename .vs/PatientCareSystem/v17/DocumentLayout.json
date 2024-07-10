@@ -3,36 +3,24 @@
   "WorkspaceRootPath": "C:\\HJM\\Project\\Cura\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C55CAC6A-70A7-4C27-AD51-5CF5568077A7}|PatientCareSystem\\PatientCareSystem.csproj|c:\\hjm\\project\\cura\\patientcaresystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C55CAC6A-70A7-4C27-AD51-5CF5568077A7}|PatientCareSystem\\PatientCareSystem.csproj|solutionrelative:patientcaresystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C55CAC6A-70A7-4C27-AD51-5CF5568077A7}|PatientCareSystem\\PatientCareSystem.csproj|c:\\hjm\\project\\cura\\patientcaresystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C55CAC6A-70A7-4C27-AD51-5CF5568077A7}|PatientCareSystem\\PatientCareSystem.csproj|solutionrelative:patientcaresystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C55CAC6A-70A7-4C27-AD51-5CF5568077A7}|PatientCareSystem\\PatientCareSystem.csproj|c:\\hjm\\project\\cura\\patientcaresystem\\formpatientlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C55CAC6A-70A7-4C27-AD51-5CF5568077A7}|PatientCareSystem\\PatientCareSystem.csproj|solutionrelative:patientcaresystem\\formpatientlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C55CAC6A-70A7-4C27-AD51-5CF5568077A7}|PatientCareSystem\\PatientCareSystem.csproj|C:\\HJM\\Project\\Cura\\patientcaresystem\\formpatientlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C55CAC6A-70A7-4C27-AD51-5CF5568077A7}|PatientCareSystem\\PatientCareSystem.csproj|solutionrelative:patientcaresystem\\formpatientlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C55CAC6A-70A7-4C27-AD51-5CF5568077A7}|PatientCareSystem\\PatientCareSystem.csproj|c:\\hjm\\project\\cura\\patientcaresystem\\formpatientlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C55CAC6A-70A7-4C27-AD51-5CF5568077A7}|PatientCareSystem\\PatientCareSystem.csproj|solutionrelative:patientcaresystem\\formpatientlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C55CAC6A-70A7-4C27-AD51-5CF5568077A7}|PatientCareSystem\\PatientCareSystem.csproj|C:\\HJM\\Project\\Cura\\patientcaresystem\\formpatientdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C55CAC6A-70A7-4C27-AD51-5CF5568077A7}|PatientCareSystem\\PatientCareSystem.csproj|solutionrelative:patientcaresystem\\formpatientdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C55CAC6A-70A7-4C27-AD51-5CF5568077A7}|PatientCareSystem\\PatientCareSystem.csproj|c:\\hjm\\project\\cura\\patientcaresystem\\formpatientdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C55CAC6A-70A7-4C27-AD51-5CF5568077A7}|PatientCareSystem\\PatientCareSystem.csproj|C:\\HJM\\Project\\Cura\\patientcaresystem\\formpatientdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C55CAC6A-70A7-4C27-AD51-5CF5568077A7}|PatientCareSystem\\PatientCareSystem.csproj|solutionrelative:patientcaresystem\\formpatientdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C55CAC6A-70A7-4C27-AD51-5CF5568077A7}|PatientCareSystem\\PatientCareSystem.csproj|c:\\hjm\\project\\cura\\patientcaresystem\\formdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C55CAC6A-70A7-4C27-AD51-5CF5568077A7}|PatientCareSystem\\PatientCareSystem.csproj|solutionrelative:patientcaresystem\\formdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C55CAC6A-70A7-4C27-AD51-5CF5568077A7}|PatientCareSystem\\PatientCareSystem.csproj|c:\\hjm\\project\\cura\\patientcaresystem\\formdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C55CAC6A-70A7-4C27-AD51-5CF5568077A7}|PatientCareSystem\\PatientCareSystem.csproj|solutionrelative:patientcaresystem\\formdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C55CAC6A-70A7-4C27-AD51-5CF5568077A7}|PatientCareSystem\\PatientCareSystem.csproj|c:\\hjm\\project\\cura\\patientcaresystem\\formpatientdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C55CAC6A-70A7-4C27-AD51-5CF5568077A7}|PatientCareSystem\\PatientCareSystem.csproj|solutionrelative:patientcaresystem\\formpatientdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C55CAC6A-70A7-4C27-AD51-5CF5568077A7}|PatientCareSystem\\PatientCareSystem.csproj|C:\\HJM\\Project\\Cura\\patientcaresystem\\dicomviewform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C55CAC6A-70A7-4C27-AD51-5CF5568077A7}|PatientCareSystem\\PatientCareSystem.csproj|solutionrelative:patientcaresystem\\dicomviewform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C55CAC6A-70A7-4C27-AD51-5CF5568077A7}|PatientCareSystem\\PatientCareSystem.csproj|C:\\HJM\\Project\\Cura\\patientcaresystem\\formpatientlist.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,107 +42,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs [\uB514\uC790\uC778]",
-              "DocumentMoniker": "C:\\HJM\\Project\\Cura\\PatientCareSystem\\Form1.cs",
-              "RelativeDocumentMoniker": "PatientCareSystem\\Form1.cs",
-              "ToolTip": "C:\\HJM\\Project\\Cura\\PatientCareSystem\\Form1.cs [\uB514\uC790\uC778]",
-              "RelativeToolTip": "PatientCareSystem\\Form1.cs [\uB514\uC790\uC778]",
+              "DocumentIndex": 4,
+              "Title": "dicomViewForm.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\HJM\\Project\\Cura\\PatientCareSystem\\dicomViewForm.cs",
+              "RelativeDocumentMoniker": "PatientCareSystem\\dicomViewForm.cs",
+              "ToolTip": "C:\\HJM\\Project\\Cura\\PatientCareSystem\\dicomViewForm.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "PatientCareSystem\\dicomViewForm.cs [\uB514\uC790\uC778]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T06:41:51.76Z",
-              "EditorCaption": " [\uB514\uC790\uC778]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\HJM\\Project\\Cura\\PatientCareSystem\\Form1.cs",
-              "RelativeDocumentMoniker": "PatientCareSystem\\Form1.cs",
-              "ToolTip": "C:\\HJM\\Project\\Cura\\PatientCareSystem\\Form1.cs",
-              "RelativeToolTip": "PatientCareSystem\\Form1.cs",
-              "ViewState": "AQIAAIsAAAAAAAAAAAAswJAAAABGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T06:28:53.172Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-29T07:35:54.067Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "formPatientList.cs",
-              "DocumentMoniker": "C:\\HJM\\Project\\Cura\\PatientCareSystem\\formPatientList.cs",
-              "RelativeDocumentMoniker": "PatientCareSystem\\formPatientList.cs",
-              "ToolTip": "C:\\HJM\\Project\\Cura\\PatientCareSystem\\formPatientList.cs",
-              "RelativeToolTip": "PatientCareSystem\\formPatientList.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAADwvyUAAABXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T05:03:10.253Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "formDashboard.cs",
-              "DocumentMoniker": "C:\\HJM\\Project\\Cura\\PatientCareSystem\\formDashboard.cs",
-              "RelativeDocumentMoniker": "PatientCareSystem\\formDashboard.cs",
-              "ToolTip": "C:\\HJM\\Project\\Cura\\PatientCareSystem\\formDashboard.cs",
-              "RelativeToolTip": "PatientCareSystem\\formDashboard.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAEwBIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T04:23:55.143Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "formPatientDetails.cs [\uB514\uC790\uC778]",
               "DocumentMoniker": "C:\\HJM\\Project\\Cura\\PatientCareSystem\\formPatientDetails.cs",
               "RelativeDocumentMoniker": "PatientCareSystem\\formPatientDetails.cs",
               "ToolTip": "C:\\HJM\\Project\\Cura\\PatientCareSystem\\formPatientDetails.cs [\uB514\uC790\uC778]",
               "RelativeToolTip": "PatientCareSystem\\formPatientDetails.cs [\uB514\uC790\uC778]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T04:19:58.794Z",
-              "EditorCaption": " [\uB514\uC790\uC778]"
+              "WhenOpened": "2024-05-29T07:34:53.152Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "formDashboard.cs [\uB514\uC790\uC778]",
-              "DocumentMoniker": "C:\\HJM\\Project\\Cura\\PatientCareSystem\\formDashboard.cs",
-              "RelativeDocumentMoniker": "PatientCareSystem\\formDashboard.cs",
-              "ToolTip": "C:\\HJM\\Project\\Cura\\PatientCareSystem\\formDashboard.cs [\uB514\uC790\uC778]",
-              "RelativeToolTip": "PatientCareSystem\\formDashboard.cs [\uB514\uC790\uC778]",
+              "DocumentIndex": 0,
+              "Title": "formPatientList.cs",
+              "DocumentMoniker": "C:\\HJM\\Project\\Cura\\PatientCareSystem\\formPatientList.cs",
+              "RelativeDocumentMoniker": "PatientCareSystem\\formPatientList.cs",
+              "ToolTip": "C:\\HJM\\Project\\Cura\\PatientCareSystem\\formPatientList.cs",
+              "RelativeToolTip": "PatientCareSystem\\formPatientList.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T04:18:32.434Z",
-              "EditorCaption": " [\uB514\uC790\uC778]"
+              "WhenOpened": "2024-05-29T05:03:10.253Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "formPatientList.cs [\uB514\uC790\uC778]",
               "DocumentMoniker": "C:\\HJM\\Project\\Cura\\PatientCareSystem\\formPatientList.cs",
               "RelativeDocumentMoniker": "PatientCareSystem\\formPatientList.cs",
               "ToolTip": "C:\\HJM\\Project\\Cura\\PatientCareSystem\\formPatientList.cs [\uB514\uC790\uC778]",
               "RelativeToolTip": "PatientCareSystem\\formPatientList.cs [\uB514\uC790\uC778]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T07:52:44.486Z",
-              "EditorCaption": " [\uB514\uC790\uC778]"
+              "WhenOpened": "2024-05-26T07:52:44.486Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "formPatientDetails.cs",
               "DocumentMoniker": "C:\\HJM\\Project\\Cura\\PatientCareSystem\\formPatientDetails.cs",
               "RelativeDocumentMoniker": "PatientCareSystem\\formPatientDetails.cs",
               "ToolTip": "C:\\HJM\\Project\\Cura\\PatientCareSystem\\formPatientDetails.cs",
               "RelativeToolTip": "PatientCareSystem\\formPatientDetails.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAADwvwAAAAAAAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAQwCkAAABQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T05:02:40.945Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-29T05:02:40.945Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "formPatientList.Designer.cs",
               "DocumentMoniker": "C:\\HJM\\Project\\Cura\\PatientCareSystem\\formPatientList.Designer.cs",
               "RelativeDocumentMoniker": "PatientCareSystem\\formPatientList.Designer.cs",
@@ -162,8 +108,7 @@
               "RelativeToolTip": "PatientCareSystem\\formPatientList.Designer.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAADwv44AAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T07:52:48.225Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-26T07:52:48.225Z"
             }
           ]
         }
